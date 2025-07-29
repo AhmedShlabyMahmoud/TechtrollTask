@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechtrollTask.Domain", "Techtroll.Api\TechtrollTask.Domain.csproj", "{4CD1F6A6-9FB1-44BC-BC1A-756712F81FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechtrollTask.Application", "TechtrollTask.Application\TechtrollTask.Application.csproj", "{56937B30-5419-4F46-BA39-E0A8EC916F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechtrollTask.Infrastructure", "TechtrollTask.Infrastructure\TechtrollTask.Infrastructure.csproj", "{97D80FA0-706F-4324-9D1A-7B7A3A8816B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechtrollTask.Api", "TechtrollTask.Api\TechtrollTask.Api.csproj", "{223C3BC5-D575-4476-ADB6-06BD81797763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Techtroll.Domain", "Techtroll.Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Techtroll.Application", "Techtroll.Application", "{67FD6022-F084-45AE-B842-29A00DAEB64F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Techtroll.Infrastructure", "Techtroll.Infrastructure", "{E1AAF11F-2B31-4274-905E-B871346B12E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Techtroll.Api", "Techtroll.Api", "{3D7B073B-1942-4CAF-A68E-874CA4F198E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD1F6A6-9FB1-44BC-BC1A-756712F81FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD1F6A6-9FB1-44BC-BC1A-756712F81FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD1F6A6-9FB1-44BC-BC1A-756712F81FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD1F6A6-9FB1-44BC-BC1A-756712F81FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56937B30-5419-4F46-BA39-E0A8EC916F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56937B30-5419-4F46-BA39-E0A8EC916F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56937B30-5419-4F46-BA39-E0A8EC916F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56937B30-5419-4F46-BA39-E0A8EC916F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D80FA0-706F-4324-9D1A-7B7A3A8816B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D80FA0-706F-4324-9D1A-7B7A3A8816B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D80FA0-706F-4324-9D1A-7B7A3A8816B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D80FA0-706F-4324-9D1A-7B7A3A8816B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223C3BC5-D575-4476-ADB6-06BD81797763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223C3BC5-D575-4476-ADB6-06BD81797763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223C3BC5-D575-4476-ADB6-06BD81797763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223C3BC5-D575-4476-ADB6-06BD81797763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CD1F6A6-9FB1-44BC-BC1A-756712F81FB2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{56937B30-5419-4F46-BA39-E0A8EC916F2B} = {67FD6022-F084-45AE-B842-29A00DAEB64F}
+		{97D80FA0-706F-4324-9D1A-7B7A3A8816B3} = {E1AAF11F-2B31-4274-905E-B871346B12E6}
+		{223C3BC5-D575-4476-ADB6-06BD81797763} = {3D7B073B-1942-4CAF-A68E-874CA4F198E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50956D33-941F-4453-87CE-C8C3DDFD9C43}
+	EndGlobalSection
+EndGlobal
